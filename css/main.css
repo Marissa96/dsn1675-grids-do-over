@@ -1,5 +1,41 @@
+html {
+  font-family: sans-serif;
+}
+
+.background-color {
+  background-color: #cccccc;
+  width: 100%;
+}
+
+.second-background-color {
+  background-color: #e2e2e2;
+}
+
+.third-background-color {
+  background-color: #efefef;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.a-background-color:hover{
+  background-color: #0373d7;
+  color: white;
+  width: 100%;
+}
+
+nav a {
+  width: 100%;
+}
+
+
 @media only screen and (min-width: 25em)  {
   nav li {
     display: inline-block;
+  }
+
+  nav ol {
+    text-align: center;
   }
 }
